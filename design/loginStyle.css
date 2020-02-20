@@ -1,0 +1,47 @@
+ body {
+     height: 100vh;
+     font-family: 'PT Serif', serif;
+ }
+
+ .form-control {
+     background-color: transparent !important;
+     color:white !important;
+     border:4px white solid;
+ }
+
+ .bodyDiv {
+     height: 100%;
+     width: 100%;
+     background-image: url("../office.jpg");
+     background-position: center;
+     background-size: cover;
+     font-size: 2rem;
+ }
+
+ .btn {
+ 	color:white;
+ 	border:white 2px solid;
+ }
+
+ .loginLabel {
+ 	color: white;
+ }
+
+ .formContainer {
+     width: 30%;
+     min-width: 320px;
+     margin: 0 auto 0 auto;
+     height: 100%;
+     display: flex;
+     flex-direction: flex-column;
+     align-items: center;
+ }
+
+.loginForm {
+	width:100%;
+}
+
+ #loginButton {
+ 	font-size: 1.7rem;
+ }
+

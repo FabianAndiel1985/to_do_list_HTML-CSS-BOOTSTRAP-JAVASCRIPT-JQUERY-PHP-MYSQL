@@ -1,0 +1,61 @@
+.enterData {
+	display:flex;
+	justify-content: center;
+	background-image: url("../desk.jpg");
+    background-position: center;
+    background-size: cover;
+    color:white;
+
+}
+
+.enterForm {
+	width:35%;
+	min-width:353px;
+	font-size: 1.7rem;
+}
+
+
+select, textarea {
+	width:100%;
+	background-color: transparent !important;
+    color:white !important;
+    border:4px white solid;
+}
+
+select {
+	color:black;
+}
+
+label[for="description"] {
+	display: block;
+}
+
+
+.showToDoList {
+	display: flex;
+	justify-content: center;
+	background-color: #eadebd;
+	font-size: 1.4rem;
+
+}
+
+.table {
+	width:60%;	
+	min-width:340px;
+}
+
+table,tr{
+	border:2px solid white;
+}
+
+th {
+	background-color: white !important;
+}
+
+.footer {
+	background-color: #bea89a;
+}
+
+option {
+	color:black;
+}
